@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Events</title>
+
+</head>
+
+<body>
+
+<button onclick="buttonclicked()">Click Here</button>
+<p id="para"></p>
+<h2 onmouseenter="mouseEnterEvent()">Hover Here</h2>
+<p id="para2"></p>
+<h2 onmouseover="over()">Over</h2>
+<p id="para3"></p>
+
+
+<script>
+
+var buttonclicked=function()
+{
+	document.getElementById("para").innerHTML+="Congratulations <br>";
+}
+
+function mouseEnterEvent(){
+	document.getElementById("para2").innerHTML+="Mouse Enter <br>";
+}
+
+function over(){
+
+	document.getElementById("para3").innerHTML+="Mouse Over <br>";
+}
+
+</script>
+
+
+
+
+</body>
+
+	</html>
